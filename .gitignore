@@ -1,0 +1,71 @@
+# ================================
+# .NET / C#
+# ================================
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# Build results
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Test results
+TestResults/
+*.trx
+
+# NuGet
+*.nupkg
+.nuget/
+packages/
+
+# ================================
+# Visual Studio
+# ================================
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# ================================
+# OS files
+# ================================
+.DS_Store
+Thumbs.db
+
+# ================================
+# Environment / secrets
+# ================================
+.env
+*.env
+secrets.*
+*.local.json
+appsettings.local.json
+
+# ================================
+# Outputs / exports
+# ================================
+out/
+output/
+exports/
+*.csv
+
+# ================================
+# Queries / IDs (examples only)
+# ================================
+ids.txt
+queries/*.local.sql
